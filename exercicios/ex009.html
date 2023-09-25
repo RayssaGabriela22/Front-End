@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<style>
+    img{
+        height: 50px;
+    }
+    body{
+        color: #333;
+        background: linear-gradient(-45deg #ee7752 );
+    }
+    @keyframes gradient{
+        0%{
+            background-position: 0% 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0% 50%;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <h1 class="text-center"> Tabela de produtos </h1>
+        <table class=" table table-striped">
+            <thead>
+                <tr class="align-middle">
+                    <th>ID</th>
+                    <th>foto</th>
+                    <th>Musica</th>
+                    <th>Artista </th>
+                    <th>Genero</th>
+                    <th> Duração</th>
+                    <th>Classificação</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="align-middle">
+                    <td>#1</td>
+                    <td><img src="mc ig.jpg" alt=""></td>
+                    <td>Noite Fria</td>
+                    <td>Mc IG</td>
+                    <td>Funk brasileiro</td>
+                    <td>2:37</td>
+                    <td> <i class="bi bi-star-fill text-warning  "></i>
+                     <i class="bi bi-star-fill text-warning  "></i>
+                     <i class="bi bi-star-fill text-warning  "></i>
+                     <i class="bi bi-star-fill text-warning  "></i>
+                    </td>
+                    <td>
+                        <i class="bi bi-pencil-fill text-success "></i>
+                        <i class="bi bi-trash-fill"></i>
+                        <i class="bi bi-exclamation-octagon-fill text-danger "></i>
+                    </td>
+                </tr>
+                <tr class="align-middle">
+                    <td>#2</td>
+                    <td><img src="hugoeguilherme.jpg" alt=""></td>
+                    <td>Magica</td>
+                    <td>Hugo e Gilherme</td>
+                    <td>Sertanejo</td>
+                    <td>2:52</td>
+                    <td> <i class="bi bi-star-fill text-warning  "></i>
+                     <i class="bi bi-star-fill text-warning  "></i>
+                     <i class="bi bi-star-fill text-warning  "></i>
+                     <i class="bi bi-star text-warning  "></i>
+                     <i class="bi bi-star text-warning  "></i>
+                    </td>
+                    <td>
+                        <i class="bi bi-pencil-fill text-success "></i>
+                        <i class="bi bi-trash-fill"></i>
+                        <i class="bi bi-exclamation-octagon-fill text-danger "></i>
+                    </td>
+                </tr>
+                <tr class="align-middle">
+                    <td>#3</td>
+                    <td><img src="Dama-de-Vermelho-Menor-MC.webp" alt=""></td>
+                    <td>Dama de Vermelho </td>
+                    <td> Menor MC</td>
+                    <td>Funk brasileiro</td>
+                    <td>2:43</td>
+                    <td> <i class="bi bi-star-fill text-warning  "></i>
+                     <i class="bi bi-star-fill text-warning  "></i>
+                     <i class="bi bi-star-fill text-warning  "></i>
+                     <i class="bi bi-star-fill text-warning  "></i><br>
+                    </td>
+                    <td>
+                        <i class="bi bi-pencil-fill text-success "></i>
+                        <i class="bi bi-trash-fill"></i>
+                        <i class="bi bi-exclamation-octagon-fill text-danger "></i>
+                    </td>
+                </tr>
+              
+            </tbody>
+        </table>
+        <!--Paginação-->
+        <ul class="pagination justify-content-center ">
+            <li class="page-item">
+                <a href="#" class="page-link"> Anterior</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link"> 1</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link"> 2</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link"> 3</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link"> Proximo</a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+@media(min-width: 768px){
+    .imagem{
+        background-image: url(/exercicios/celular.webp);
+    }
+}
+@media(min-width: 992px){
+    .imagem{
+        background-image: url(/exercicios/tablet.jpg);
+    }
+}
+@media(min-width: 1200px){
+    .imagem{
+        background-image: url(/exercicios/computador.jpg);
+    }
+}
+@media(min-width: 1400px){
+    .imagem{
+        background-image: url(/exercicios/tv.jpg);
+    }
+}

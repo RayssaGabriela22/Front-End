@@ -1,0 +1,19 @@
+body{
+    background-image: url(/exercicios/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(243, 243, 243, 0.141);
+    text-align: left;
+    max-width: 500px;
+    height: 0 auto;
+    margin: 0 auto;
+    box-shadow: #bcbcbc 2px 2px 3px 3px;
+    padding: 15px;
+    margin-top: 70px;
+    width: 500px;
+    height: 500px;
+    border: rgb(0, 0, 0);
+}
